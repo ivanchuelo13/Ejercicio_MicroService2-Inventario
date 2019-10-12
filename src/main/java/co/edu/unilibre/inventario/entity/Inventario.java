@@ -24,7 +24,7 @@ public class Inventario implements Serializable{
 	private Double precio;
 	private String unidad;//(KG,L,G)
 	private String provedor;
-	
+	//casallas
 	@Column(name = "creation_date")
 	@Temporal(TemporalType.DATE)
 	private Date createDate;
